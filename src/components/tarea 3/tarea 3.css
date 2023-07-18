@@ -1,0 +1,40 @@
+.listFriend{
+    margin-top: 90px;
+}
+.FriendListItem .item-friend{
+    border: 1px solid #868282;
+    border-radius: 5%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    list-style-type: none;
+    margin-top: 20px;
+    background-color: white;
+    width: 280px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+.item-friend img{
+    border-radius: 5%;
+    max-width: 80px;
+    max-height: 100px;
+    margin-right: 25px;
+}
+.item-friend p{
+    color: black;
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.item-friend span{
+    border: 1px solid #868282;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.online{
+    background-color: rgb(20, 195, 20);
+}
+.offline{
+    background-color: red;
+}
