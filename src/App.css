@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e3e2e2;
+}
+.online {
+  background-color: rgb(20, 195, 20);
+}
+.offline {
+  background-color: red;
+}
